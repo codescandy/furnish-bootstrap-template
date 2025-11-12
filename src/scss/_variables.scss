@@ -4,7 +4,7 @@ $secondary: #d47f31;
 
 $enable-negative-margins: true !default;
 
-
+$headings-font-weight: 400 !default;
 
 // scss-docs-start position-map
 $position-values: (
@@ -51,6 +51,8 @@ $spacers: (
 ) !default;
 // scss-docs-end spacer-variables-maps
 
+$font-family-base: 'Poppins', sans-serif !default;
+
 $font-xs: 0.75rem !default;
 
 // scss-docs-start border-radius-variables
@@ -67,5 +69,5 @@ $input-border-radius: 0px !default;
 $btn-border-radius: 0px !default;
 
 
-$input-btn-padding-y: 0.65rem !default;
-$input-btn-padding-x: 1rem !default;
+$input-btn-padding-y: 0.85rem !default;
+$input-btn-padding-x: 1.5rem !default;
