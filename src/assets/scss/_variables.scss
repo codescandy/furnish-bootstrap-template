@@ -3,6 +3,7 @@ $primary: #000;
 $secondary: #d47f31;
 
 $enable-negative-margins: true !default;
+$enable-rounded:              false !default;
 
 $headings-font-weight: 400 !default;
 
@@ -60,19 +61,8 @@ $font-size-lg:                $font-size-base * 1.25 !default;
 $font-xs: 0.75rem !default;
 
 // scss-docs-start border-radius-variables
-$border-radius: 0rem !default;
-$border-radius-sm: 0.25rem !default;
-$border-radius-lg: 0.5rem !default;
-$border-radius-xl: 1rem !default;
-$border-radius-xxl: 2rem !default;
-$border-radius-pill: 50rem !default;
-$border-radius-none: 0rem !default;
 
-$input-border-radius: $border-radius-none !default;
 
-$btn-border-radius: $border-radius-none !default;
-$border-radius-sm: $border-radius-none;
-$border-radius-lg: $border-radius-none;
 
 
 $input-btn-padding-y: 0.85rem !default;
