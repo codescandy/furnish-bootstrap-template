@@ -1,6 +1,21 @@
 // Example: override Bootstrap color variables
+
+$gray-50: #f6f5f4 !default;
+$gray-100: #ecebe9 !default;
+$gray-200: #dad7d2 !default;
+$gray-300: #c5c0b9 !default;
+$gray-400: #b3aca3 !default;
+$gray-500: #a0988d !default;
+$gray-600: #837a6d !default;
+$gray-700: #615b51 !default;
+$gray-800: #433e38 !default;
+$gray-900: #211f1c !default;
+$gray-950: #11100e !default;
 $primary: #000;
 $secondary: #d47f31;
+$light: $gray-100 !default;
+$border-color: $gray-100 !default;
+$border-color-translucent:   $gray-100 !default;
 
 $enable-negative-margins: true !default;
 $enable-rounded:              false !default;
@@ -54,11 +69,18 @@ $spacers: (
 
 $font-family-base: 'Poppins', sans-serif !default;
 $font-size-root:              null !default;
-$font-size-base:              .875 !default; // Assumes the browser default, typically `16px`
-$font-size-sm:                $font-size-base * .65 !default;
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-sm:                $font-size-base * .85 !default;
 $font-size-lg:                $font-size-base * 1.25 !default;
 
 $font-xs: 0.75rem !default;
+
+$h1-font-size:                $font-size-base * 2.5 !default;
+$h2-font-size:                $font-size-base * 2 !default;
+$h3-font-size:                $font-size-base * 1.75 !default;
+$h4-font-size:                $font-size-base * 1.5 !default;
+$h5-font-size:                $font-size-base * 1.25 !default;
+$h6-font-size:                $font-size-base !default;
 
 // scss-docs-start border-radius-variables
 
